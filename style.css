@@ -1,0 +1,65 @@
+body{
+    background-color: white;
+    height: 100%;
+}
+
+
+
+.top_section{
+    background-image: url(images/image1.png) ;
+    min-height: 100%;
+   
+    
+}
+
+.middle_section{
+    background-image: url(images/image2.png);
+    min-height: 400px;
+}
+
+.bottom_section{
+    background-image: url(images/image3.png);
+    min-height: 400px;
+
+}
+
+.top_section, .middle_section, .bottom_section{
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.p_text{
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 10px;
+ 
+}
+
+h2{
+     padding-top: 50px;
+     font-size: 30px;
+}
+section{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section_light{
+    background-color: aliceblue;
+    color: gray;
+}
+
+.section_dark{
+    background-color: gray;
+    color: aliceblue;
+}
+
+p{
+    font-size: 19px;
+    letter-spacing: 2px;
+}
